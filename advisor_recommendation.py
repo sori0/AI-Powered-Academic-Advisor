@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import networkx as nx
 
-# Load the student data (you can also copy it in here directly if not saved)
+# Load the student data 
 from student_simulation import students
 
 # Build curriculum graph again
@@ -61,7 +61,6 @@ for student in students:
                 if c in eligible_courses and c not in preferred:
                     preferred.append(c)
 
-    # Fill up to 5 courses max
     final_recommend = preferred.copy()
     for c in eligible_courses:
         if c not in final_recommend:
