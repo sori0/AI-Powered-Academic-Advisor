@@ -18,7 +18,7 @@ This system simulates a cohort of 100 astronomy students and provides smart cour
 
 
 ## 📂 Folder Structure 
-      ```
+      ```bash
    ├── curriculum_graph.py # Builds and visualizes the astronomy course graph 
    ├── student_simulation.py # Generates 100 simulated student profiles
    ├── advisor_recommendation.py # Core AI logic for personalized course recommendations 
