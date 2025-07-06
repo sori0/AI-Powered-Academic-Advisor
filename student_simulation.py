@@ -2,7 +2,7 @@ import random
 import pandas as pd
 import numpy as np
 
-# List of courses from your curriculum
+# List of courses from the astronomy curriculum
 course_list = [
     "A101", "A102", "A103",
     "A201", "A202", "A203",
@@ -16,7 +16,7 @@ interest_areas = [
     "Cosmology", "Astrobiology", "Observational Techniques"
 ]
 
-# Grade scale: A=4.0, B=3.0, C=2.0, D=1.0, F=0
+
 grade_scale = {
     "A": 4.0, "B": 3.0, "C": 2.0, "D": 1.0, "F": 0.0
 }
