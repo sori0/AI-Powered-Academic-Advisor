@@ -18,6 +18,7 @@ This system simulates a cohort of 100 astronomy students and provides smart cour
 
 
 ## 📂 Folder Structure 
+```
 
    ├── curriculum_graph.py # Builds and visualizes the astronomy course graph 
 
@@ -29,7 +30,7 @@ This system simulates a cohort of 100 astronomy students and provides smart cour
 
    ├── report.pdf # 2-page project summary (explains design, logic, results) 
 
-         
+```      
 
 
 
