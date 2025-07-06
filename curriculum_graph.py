@@ -1,7 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
-# Initialize a directed graph
+# Initialize a graph
 G = nx.DiGraph()
 
 # Astronomy Curriculum (course prerequisites)
